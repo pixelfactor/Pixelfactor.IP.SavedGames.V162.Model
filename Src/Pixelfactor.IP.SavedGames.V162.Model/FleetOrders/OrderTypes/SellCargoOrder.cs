@@ -14,7 +14,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         /// <summary>
         /// TODO: Change to enum
         /// </summary>
-        public List<int> SellCargoClassIds { get; set; } = new List<int>();
+        public List<CargoClass> SellCargoClasses { get; set; } = new List<CargoClass>();
         public bool SellEquipment { get; set; }
     }
 }

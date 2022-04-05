@@ -10,7 +10,7 @@
         public int CurrentBalance { get; set; }
         public Unit LocationUnit { get; set; }
         public Faction OtherFaction { get; set; }
-        public int RelatedCargoClassId { get; set; }
+        public CargoClass RelatedCargoClass { get; set; }
         public UnitClass RelatedUnitClass { get; set; }
         public double GameWorldTime { get; set; }
     }

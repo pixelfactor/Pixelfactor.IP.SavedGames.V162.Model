@@ -12,6 +12,6 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         /// If trading only certain cargo, these are the ids
         /// TODO: Change id to enum
         /// </summary>
-        public List<int> TradeSpecificCargoClassIds { get; set; } = new List<int>();
+        public List<CargoClass> TradeSpecificCargoClasses { get; set; } = new List<CargoClass>();
     }
 }

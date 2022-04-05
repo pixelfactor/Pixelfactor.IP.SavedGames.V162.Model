@@ -15,5 +15,9 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// These are the numbered fleets that can be assigned in the orders panel
         /// </summary>
         public List<Fleet> Fleets { get; set; } = new List<Fleet>();
+
+        public Person Person { get; set; }
+
+        public Faction Faction => this.Person?.Faction;
     }
 }

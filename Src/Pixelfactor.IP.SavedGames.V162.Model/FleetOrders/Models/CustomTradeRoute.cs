@@ -2,10 +2,7 @@
 {
     public class CustomTradeRoute
     {
-        /// <summary>
-        /// Todo replace with enum
-        /// </summary>
-        public int CargoClassId { get; set; }
+        public CargoClass CargoClass { get; set; }
 
         public Unit BuyLocation { get; set; }
 

@@ -3,6 +3,6 @@
     public class ComponentUnitModDataItem
     {
         public int BayId { get; set; }
-        public int ComponentClassId { get; set; }
+        public ComponentClass ComponentClass { get; set; }
     }
 }

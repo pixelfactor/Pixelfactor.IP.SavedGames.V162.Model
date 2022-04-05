@@ -2,7 +2,7 @@
 {
     public class ComponentUnitCargoDataItem
     {
-        public int CargoClassId { get; set; }
+        public CargoClass CargoClass { get; set; }
         public int Quantity { get; set; }
     }
 }

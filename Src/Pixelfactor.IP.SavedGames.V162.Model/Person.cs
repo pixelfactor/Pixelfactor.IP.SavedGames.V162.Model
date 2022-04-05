@@ -25,12 +25,6 @@
         public bool DestroyGameObjectOnKill { get; set; }
         public int Kills { get; set; }
 
-        /// <summary>
-        /// If person is the local player<br />
-        /// Don't set more than one otherwise weird stuff will happen
-        /// </summary>
-        public bool IsPlayer { get; set; }
-
         public Unit CurrentUnit { get; set; }
 
         public bool IsPilot { get; set; }
