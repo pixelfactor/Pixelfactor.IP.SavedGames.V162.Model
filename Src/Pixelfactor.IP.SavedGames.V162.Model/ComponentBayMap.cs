@@ -573,6 +573,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
             if (!UnitClassComponentBays.TryGetValue(unitClass, out bays))
             {
                 bays = new List<ComponentBay>();
+                UnitClassComponentBays[unitClass] = bays;
             }
 
             bays.Add(componentBay);
