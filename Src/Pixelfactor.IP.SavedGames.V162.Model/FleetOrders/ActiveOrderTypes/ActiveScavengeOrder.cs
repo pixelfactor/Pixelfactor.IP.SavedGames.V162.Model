@@ -7,7 +7,7 @@
         public bool AutoTractorCargoEnabled { get; set; }
         public bool IsRoaming { get; set; }
         public double RoamExpireTime { get; set; }
-        public Vector3 LastKnownCargoPosition { get; set; }
+        public Vec3 LastKnownCargoPosition { get; set; }
         public bool HadCargoTarget { get; set; }
     }
 }

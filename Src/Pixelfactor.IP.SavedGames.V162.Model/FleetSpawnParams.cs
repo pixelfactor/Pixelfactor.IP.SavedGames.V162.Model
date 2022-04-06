@@ -40,7 +40,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// <summary>
         /// Position to spawn at (ignored if TargetDock is assigned)
         /// </summary>
-        public Vector3 TargetPosition { get; set; }
+        public Vec3 TargetPosition { get; set; }
 
         /// <summary>
         /// Sector the spawned units spawn in (ignored if TargetDock is assigned)

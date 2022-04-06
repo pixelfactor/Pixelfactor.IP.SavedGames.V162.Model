@@ -2,7 +2,7 @@
 {
     public class PatrolPathNode
     {
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
         public Sector Sector { get; set; }
     }
 }

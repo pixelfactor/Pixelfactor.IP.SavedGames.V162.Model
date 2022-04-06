@@ -17,13 +17,13 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// The id of the name that was generated for this faction. Stops duplicates being generated<br />
         /// Applies when <see cref="HasGeneratedName"/>
         /// </summary>
-        public int GeneratedNameId { get; set; }
+        public int GeneratedNameId { get; set; } = -1;
 
         /// <summary>
         /// The id of the name that was generated for this faction. Stops duplicates being generated<br />
         /// Applies when <see cref="HasGeneratedName"/>
         /// </summary>
-        public int GeneratedSuffixId { get; set; }
+        public int GeneratedSuffixId { get; set; } = -1;
 
         public bool HasCustomName { get; set; }
 

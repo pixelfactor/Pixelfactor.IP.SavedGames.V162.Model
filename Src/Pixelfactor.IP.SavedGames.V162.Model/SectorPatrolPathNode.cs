@@ -5,7 +5,7 @@
     /// </summary>
     public class SectorPatrolPathNode
     {
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
         public int Order { get; set; }
     }
 }

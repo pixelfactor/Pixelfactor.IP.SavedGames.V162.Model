@@ -15,8 +15,8 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// </summary>
         public UnitClass Class { get; set; }
         public Sector Sector { get; set; }
-        public Vector3 Position { get; set; }
-        public Vector4 Rotation { get; set; }
+        public Vec3 Position { get; set; }
+        public Vec4 Rotation { get; set; }
         public Faction Faction { get; set; }
         /// <summary>
         /// Requisition point provision. Provides faction with chance to build more units

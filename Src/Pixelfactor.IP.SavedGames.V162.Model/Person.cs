@@ -9,8 +9,8 @@
         /// </summary>
         public NpcPilotSettings NpcPilotSettings { get; set; }
         public int Id { get; set; }
-        public int GeneratedFirstNameId { get; set; }
-        public int GeneratedLastNameId { get; set; }
+        public int GeneratedFirstNameId { get; set; } = -1;
+        public int GeneratedLastNameId { get; set; } = -1;
 
         /// <summary>
         /// Use this OR the generated name ids

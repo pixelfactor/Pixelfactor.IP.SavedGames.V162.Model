@@ -6,7 +6,7 @@
         public int Reward { get; set; }
         public Unit LastKnownTargetUnit { get; set; }
         public Sector LastKnownTargetSector { get; set; }
-        public Vector3? LastKnownTargetPosition { get; set; }
+        public Vec3? LastKnownTargetPosition { get; set; }
         /// <summary>
         /// The faction that added the bounty
         /// </summary>

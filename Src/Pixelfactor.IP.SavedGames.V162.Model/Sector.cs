@@ -17,7 +17,7 @@
         /// <summary>
         /// Determines where the sector appears on the universe map
         /// </summary>
-        public Vector3 MapPosition { get; set; }
+        public Vec3 MapPosition { get; set; }
 
         public string Description { get; set; }
 
@@ -34,16 +34,16 @@
         /// <summary>
         /// Don't change. Internal engine use only
         /// </summary>
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
 
         /// <summary>
         /// Skybox rotation
         /// </summary>
-        public Vector3 BackgroundRotation { get; set; }
+        public Vec3 BackgroundRotation { get; set; }
 
         /// <summary>
         /// Single directional light rotation
         /// </summary>
-        public Vector3 LightRotation { get; set; }
+        public Vec3 LightRotation { get; set; }
     }
 }

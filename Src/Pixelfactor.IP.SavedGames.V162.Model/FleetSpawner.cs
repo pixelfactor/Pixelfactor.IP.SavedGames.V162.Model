@@ -9,8 +9,8 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
     public class FleetSpawner
     {
         public string Name { get; set; }
-        public Vector3 Position { get; set; }
-        public Vector4 Rotation { get; set; }
+        public Vec3 Position { get; set; }
+        public Vec4 Rotation { get; set; }
         public float InitialSpawnTimeRandomness { get; set; }
         public float SpawnTimeRandomness { get; set; }
         public string ShipDesignation { get; set; }

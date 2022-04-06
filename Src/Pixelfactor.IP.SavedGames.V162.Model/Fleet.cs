@@ -7,9 +7,9 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
     {
         public int Id { get; set; }
 
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
 
-        public Vector4 Rotation { get; set; }
+        public Vec4 Rotation { get; set; }
 
         public Sector Sector { get; set; }
 

@@ -14,9 +14,9 @@
 
         public double UnstableNextChangeTargetTime { get; set; }
 
-        public Vector3 UnstableTargetPosition { get; set; }
+        public Vec3 UnstableTargetPosition { get; set; }
 
-        public Vector3 UnstableTargetRotation { get; set; }
+        public Vec3 UnstableTargetRotation { get; set; }
 
         public Sector UnstableTargetSector { get; set; }
     }

@@ -2,7 +2,7 @@
 {
     public class SectorTarget
     {
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
 
         public Sector Sector { get; set; }
 

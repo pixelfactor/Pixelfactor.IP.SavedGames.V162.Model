@@ -2,7 +2,7 @@
 {
     public class PlayerWaypoint
     {
-        public Vector3 Position { get; set; }
+        public Vec3 Position { get; set; }
         public Sector Sector { get; set; }
         public Unit TargetUnit { get; set; }
         public bool HadTargetObject { get; set; }

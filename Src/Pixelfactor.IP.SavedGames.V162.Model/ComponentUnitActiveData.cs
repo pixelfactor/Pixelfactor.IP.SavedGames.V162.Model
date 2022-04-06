@@ -5,7 +5,7 @@
     /// </summary>
     public class ComponentUnitActiveData
     {
-        public Vector3 Velocity { get; set; }
+        public Vec3 Velocity { get; set; }
         public float CurrentTurn { get; set; }
     }
 }

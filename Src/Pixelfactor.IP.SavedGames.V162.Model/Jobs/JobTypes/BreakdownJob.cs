@@ -3,7 +3,7 @@
     public class BreakdownJob : Job
     {
         public Sector BreakdownDestinationSector { get; set; }
-        public Vector3 BreakdownDestinationPosition { get; set; }
+        public Vec3 BreakdownDestinationPosition { get; set; }
         public UnitClass BreakdownUnitClass { get; set; }
     }
 }
