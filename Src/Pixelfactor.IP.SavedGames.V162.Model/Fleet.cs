@@ -31,7 +31,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// Note: Due to a massive bug in the way 1.6.x loads a save game, fleet orders in the save file can be ignored when game loads <em>if the order involves another fleet</em><br />
         /// E.g. The attack fleet order will sometimes break when loaded
         /// </summary>
-        public FleetOrderCollection Orders { get; set; }
+        public FleetOrderCollection Orders { get; set; } = new FleetOrderCollection();
 
         public bool IsActive { get; set; }
 
