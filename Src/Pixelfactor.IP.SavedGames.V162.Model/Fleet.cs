@@ -33,7 +33,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         /// </summary>
         public FleetOrderCollection Orders { get; set; } = new FleetOrderCollection();
 
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
         /// <summary>
         /// The npcs inside this fleet (pilots)
