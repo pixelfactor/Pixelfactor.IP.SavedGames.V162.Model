@@ -3,6 +3,10 @@
     public enum CargoClass
     {
         Cargo_AdvancedAlloys = 2000,
+        /// <summary>
+        /// Reserved. Will not be traded in 1.6.x
+        /// </summary>
+        Cargo_Chemicals = 6500,
         Cargo_CopperOre = 3000,
         Cargo_Diamond = 4001,
         Cargo_FineJewellery = 3100,
