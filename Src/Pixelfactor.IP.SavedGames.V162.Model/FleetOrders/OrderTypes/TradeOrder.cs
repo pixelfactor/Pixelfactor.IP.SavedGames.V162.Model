@@ -4,5 +4,7 @@
     {
         public int MinBuyQuantity { get; set; }
         public float MinBuyCargoPercentage { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.Trade;
     }
 }

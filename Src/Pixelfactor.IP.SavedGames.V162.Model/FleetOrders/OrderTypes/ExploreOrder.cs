@@ -2,6 +2,6 @@
 {
     public class ExploreOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.Explore;
     }
 }

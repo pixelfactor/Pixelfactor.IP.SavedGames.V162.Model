@@ -6,5 +6,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
     {
         public RepairFleetInsufficientCreditsMode InsufficientCreditsMode { get; set; }
         public Unit RepairLocationUnit { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.ManualRepair;
     }
 }

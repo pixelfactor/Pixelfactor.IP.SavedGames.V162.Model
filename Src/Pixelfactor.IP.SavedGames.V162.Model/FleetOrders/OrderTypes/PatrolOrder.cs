@@ -9,5 +9,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         public bool IsLooping { get; set; }
         public List<PatrolPathNode> Nodes { get; set; } = new List<PatrolPathNode>();
         public bool IsLoop { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.Patrol;
     }
 }

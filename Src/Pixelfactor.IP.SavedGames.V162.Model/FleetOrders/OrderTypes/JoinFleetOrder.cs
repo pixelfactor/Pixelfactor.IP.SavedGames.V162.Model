@@ -3,5 +3,7 @@
     public class JoinFleetOrder : FleetOrder
     {
         public Fleet TargetFleet { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.JoinFleet;
     }
 }

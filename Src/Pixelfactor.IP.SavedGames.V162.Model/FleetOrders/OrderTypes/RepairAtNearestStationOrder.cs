@@ -5,5 +5,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
     public class RepairAtNearestStationOrder : FleetOrder
     {
         public RepairFleetInsufficientCreditsMode InsufficientCreditsMode { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.RepairAtNearest;
     }
 }

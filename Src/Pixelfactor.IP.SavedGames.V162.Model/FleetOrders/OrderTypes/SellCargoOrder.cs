@@ -16,5 +16,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         /// </summary>
         public List<CargoClass> SellCargoClasses { get; set; } = new List<CargoClass>();
         public bool SellEquipment { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.SellCargo;
     }
 }

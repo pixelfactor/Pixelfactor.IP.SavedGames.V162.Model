@@ -8,5 +8,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         public bool CompleteWhenCargoFull { get; set; }
         public CollectCargoOwnerMode CollectOwnerMode { get; set; }
         public float RoamMaxTime { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.Scavenge;
     }
 }

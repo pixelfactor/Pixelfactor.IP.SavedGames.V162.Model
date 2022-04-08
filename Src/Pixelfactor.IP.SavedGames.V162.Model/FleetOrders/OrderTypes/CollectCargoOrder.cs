@@ -8,5 +8,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         public bool CompleteWhenCargoFull { get; set; }
         public CollectCargoOwnerMode CollectOwnerMode { get; set; }
         public bool OresOnly { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.CollectCargo;
     }
 }

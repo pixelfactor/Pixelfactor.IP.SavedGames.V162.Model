@@ -13,5 +13,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders.OrderTypes
         /// TODO: Change id to enum
         /// </summary>
         public List<CargoClass> TradeSpecificCargoClasses { get; set; } = new List<CargoClass>();
+
+        public override FleetOrderType OrderType => FleetOrderType.UniverseTrade;
     }
 }

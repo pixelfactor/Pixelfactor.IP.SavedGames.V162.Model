@@ -2,6 +2,6 @@
 {
     public class UniverseBountyHunterOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.UniverseBountyHunter;
     }
 }

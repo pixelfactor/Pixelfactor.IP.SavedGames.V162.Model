@@ -5,5 +5,7 @@
         public int PathDirection { get; set; }
         public bool IsLooping { get; set; }
         public SectorPatrolPath PatrolPath { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.PatrolPath;
     }
 }

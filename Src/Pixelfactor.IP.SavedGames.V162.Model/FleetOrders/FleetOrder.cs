@@ -2,10 +2,8 @@
 
 namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders
 {
-    public class FleetOrder
+    public abstract class FleetOrder
     {
-        public FleetOrderType OrderType { get; set; }
-
         public int Id { get; set; }
 
         public FleetOrderCompletionMode CompletionMode { get; set; }
@@ -28,5 +26,7 @@ namespace Pixelfactor.IP.SavedGames.V162.Model.FleetOrders
         /// The period of inactivity in seconds, after which the order will be invalidated
         /// </summary>
         public float TimeoutTime { get; set; }
+
+        public abstract FleetOrderType OrderType { get;}
     }
 }

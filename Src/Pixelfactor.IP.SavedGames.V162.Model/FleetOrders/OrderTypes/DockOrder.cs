@@ -3,5 +3,7 @@
     public class DockOrder : FleetOrder
     {
         public Unit TargetDock { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.Dock;
     }
 }

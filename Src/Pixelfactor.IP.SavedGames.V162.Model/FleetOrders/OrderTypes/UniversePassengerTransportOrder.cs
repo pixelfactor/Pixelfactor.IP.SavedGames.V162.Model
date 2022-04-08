@@ -2,6 +2,6 @@
 {
     public class UniversePassengerTransportOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.UniversePassengerTransport;
     }
 }

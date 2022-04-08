@@ -2,6 +2,6 @@
 {
     public class ReturnToBaseOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.RTB;
     }
 }

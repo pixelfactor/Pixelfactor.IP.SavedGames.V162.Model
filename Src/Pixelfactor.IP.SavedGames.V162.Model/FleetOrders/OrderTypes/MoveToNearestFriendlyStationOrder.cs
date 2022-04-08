@@ -3,5 +3,7 @@
     public class MoveToNearestFriendlyStationOrder : FleetOrder
     {
         public bool CompleteOnReachTarget { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.MoveToNearestFriendlyStation;
     }
 }

@@ -2,6 +2,6 @@
 {
     public class DisposeCargoOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.DisposeCargo;
     }
 }

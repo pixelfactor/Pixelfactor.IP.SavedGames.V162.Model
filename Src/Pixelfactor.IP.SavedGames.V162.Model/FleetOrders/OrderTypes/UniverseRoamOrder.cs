@@ -2,6 +2,6 @@
 {
     public class UniverseRoamOrder : FleetOrder
     {
-
+        public override FleetOrderType OrderType => FleetOrderType.UniverseRoam;
     }
 }

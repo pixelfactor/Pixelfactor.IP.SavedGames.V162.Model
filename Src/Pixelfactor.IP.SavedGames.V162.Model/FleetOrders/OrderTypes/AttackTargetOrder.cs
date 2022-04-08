@@ -4,5 +4,7 @@
     {
         public Unit TargetUnit { get; set; }
         public float AttackPriority { get; set; }
+
+        public override FleetOrderType OrderType => FleetOrderType.AttackTarget;
     }
 }
