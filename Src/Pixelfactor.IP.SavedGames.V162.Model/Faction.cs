@@ -131,9 +131,9 @@ namespace Pixelfactor.IP.SavedGames.V162.Model
         public FactionCustomSettings CustomSettings { get; set; }
         public FactionStats Stats { get; set; }
         public List<Sector> AutopilotExcludedSectors { get; set; } = new List<Sector>();
-        public FactionIntel Intel { get; set; }
-        public FactionRelationData Relations { get; set; }
-        public FactionOpinionData Opinions { get; set; }
+        public FactionIntel Intel { get; set; } = new FactionIntel();
+        public FactionRelationData Relations { get; set; } = new FactionRelationData();
+        public FactionOpinionData Opinions { get; set; } = new FactionOpinionData();
 
         public Person Leader { get; set; }
         public FactionAI FactionAI { get; set; }
